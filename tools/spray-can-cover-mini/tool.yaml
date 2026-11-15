@@ -15,7 +15,7 @@ dimensions:
   tolerance: 0.05
 printing:
   material_candidates: [PETG, PLA]
-  orientation: open_end_down
+  orientation: open_end_up
   nozzle_mm: 0.4
   layer_height_mm: 0.2
 validation:

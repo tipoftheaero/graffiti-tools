@@ -1,6 +1,6 @@
-# Spray Can Cover Mini — V1.1
+# Spray Can Cover Mini
 
-**Status:** Prototype — no verified print fit or universal aerosol compatibility.
+**Status:** Prototype - no verified print fit or universal aerosol compatibility.
 
 A small friction-fit cap intended to cover the valve area of a nominal 400 mL aerosol can. The cap has a closed top and four rounded internal gripping pads near the open rim. It must **never** be forced onto a can or fitted in a way that can press the valve.
 
@@ -26,10 +26,10 @@ All dimensions are millimeters. `Z=0` is the open end; `Z=24` is the closed top.
 
 ## Files
 
-- [`src/model.py`](src/model.py) — editable Build123d source, with a `build()` entrypoint
-- [`tool.yaml`](tool.yaml) — metadata consumed by the shared build/validation pipeline
-- [`tests/test_model.py`](tests/test_model.py) — geometry and parameter regression tests
-- `dist/spray_can_cover_mini/` — generated STL/STEP/manifest from the shared build script (not committed)
+- [`src/model.py`](src/model.py) - editable Build123d source, with a `build()` entrypoint
+- [`tool.yaml`](tool.yaml) - metadata consumed by the shared build/validation pipeline
+- [`tests/test_model.py`](tests/test_model.py) - geometry and parameter regression tests
+- `dist/spray_can_cover_mini/` - generated STL/STEP/manifest from the shared build script (not committed)
 
 ## Build and validate
 
@@ -58,7 +58,7 @@ You may also run `python tools/spray_can_cover_mini/src/model.py` to export the 
 ## Printing guidance (initial, unverified)
 
 - Start with **PETG**, or PLA for an initial fit prototype.
-- Try **0.4 mm nozzle**, **0.2 mm layers** and print open end down.
+- Try **0.4 mm nozzle**, **0.2 mm layers** and print open end up.
 - A brim may help bed adhesion; inspect how the slicer handles the thin 1 mm walls and gripping pads.
 - Avoid supports inside the cavity unless inspection shows they're required.
 - Check the CAD and slicer preview to ensure the roof/top can be printed acceptably; adjust bridging or support settings as necessary.
