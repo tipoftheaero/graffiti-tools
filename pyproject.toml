@@ -1,0 +1,24 @@
+[project]
+name = "graffiti-tools"
+version = "0.1.0"
+description = "Open source printable graffiti accessories and reproducible CAD builds"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "build123d>=0.9,<1",
+  "PyYAML>=6,<7",
+  "trimesh>=4,<5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+docs = ["mkdocs>=1.6,<2", "mkdocs-material>=9,<10"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.pytest.ini_options]
+testpaths = ["tools", "tests"]
+addopts = "--import-mode=importlib"

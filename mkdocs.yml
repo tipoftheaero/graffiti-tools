@@ -1,0 +1,12 @@
+site_name: Tip of the Aero — Graffiti Tools
+site_url: https://tipoftheaero.github.io/graffiti-tools/
+repo_url: https://github.com/tipoftheaero/graffiti-tools
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Printing Guide: printing-guide.md
+  - Tools:
+      - Spray Masking Shield: tools/spray-mask.md
+  - Contributing: contributing-designs.md

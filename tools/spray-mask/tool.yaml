@@ -1,0 +1,22 @@
+id: spray-mask
+name: Spray Masking Shield
+version: 0.1.0
+status: prototype
+cad:
+  engine: build123d
+  source: src/model.py
+  entrypoint: build
+  formats: [stl, step]
+dimensions:
+  units: mm
+  expected_width: 240.0
+  expected_height: 174.0
+  expected_thickness: 1.4
+  tolerance: 0.5
+printing:
+  material_candidates: [PETG, PLA]
+  orientation: flat
+  nozzle_mm: 0.4
+  layer_height_mm: 0.2
+validation:
+  physically_tested: false
