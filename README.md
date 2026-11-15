@@ -31,4 +31,4 @@ mkdocs serve
 
 ## Intellectual property
 
-Licenses for CAD, code, photographs and documentation are **not yet selected**. See [LICENSES.md](LICENSES.md). Do not assume that publicly visible source is automatically licensed for reuse.
+Licenses for CAD, code, photographs documented in the LICENSE file and LICENSES directory.
